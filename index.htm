@@ -1,0 +1,92 @@
+
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+.auto-style2 {
+	font-family: Wingdings, "Arial Unicode MS";
+	font-size: xx-small;
+	color: #F5E5E5;
+	text-align: center;
+}
+.auto-style7 {
+	text-align: center;
+}
+.auto-style8 {
+	text-align: center;
+	font-family: 微軟正黑體;
+	font-size: xx-large;
+	color: #FFFFFF;
+}
+.auto-style9 {
+	font-size: large;
+}
+.auto-style10 {
+	background-image: url('images/bg1.png');
+}
+.auto-style11 {
+	margin: 20px;
+}
+.auto-style12 {
+	margin-top: 18px;
+}
+</style>
+
+<script type="text/javascript">
+<!--
+function FP_goToURL(url) {//v1.0
+ window.location=url;
+}
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<title>首頁</title>
+
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button7.jpg',/*url*/'images/ico2.png',/*url*/'images/ico4.png')">
+
+<table align="center" cellpadding="0" class="auto-style10" style="width: 100%;">
+	<tr>
+		<td class="auto-style7" style="height: 450px; width: 469px;">
+		<br><br><br>
+		<a href="hi.html">
+		<img id="img1" alt="profile"  height="400 px" width="400 px" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/ico1.png')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/ico2.png')" src="images/ico1.png" style="border-style: none; border-color: inherit; border-width: 0; float: right;" width="100" onclick="FP_goToURL(/*href*/'hi.html')"><div class="auto-style7">
+		</div>
+		</a></td>
+		<td class="auto-style7" style="height: 69px; width: 484px;">
+		<a href="project.htm">
+		<img id="img2" alt="project"  height="400" width="400 px" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'images/ico3.png')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'images/ico4.png')" src="images/ico3.png" style="border-style: none; border-color: inherit; border-width: 0; float: left;" width="100" onclick="FP_goToURL(/*href*/'project.htm')"></a></td>
+		<td class="auto-style7" style="height: 69px">
+		<a href="stairs/index.htm">
+		<img id="img3" alt="groupproject"  height="400" width="400 px" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'images/ico5.png')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'images/ico6.png')" src="images/ico5.png" style="border-style: none; border-color: inherit; border-width: 0; float: left;" width="100" onclick="FP_goToURL(/*href*/'stairs/index.htm')" class="auto-style12"></a></td>
+	</tr>
+	<tr>
+		<td class="auto-style8" colspan="3" style="height: 18px">1411222027 鍾璦壬<br>
+		<span class="auto-style9">首頁</span></td>
+	</tr>
+	<tr>
+		<td class="auto-style8" colspan="3" style="height: 114px">
+		<img alt="logo" class="auto-style11" height="153" src="images/logo.png" width="150"></td>
+	</tr>
+</table>
+<p class="auto-style2"onclick="FP_goToURL(/*href*/'https://www.youtube.com/watch?v=dQw4w9WgXcQ')">never gonna give you up, never gonna let you down</p>
